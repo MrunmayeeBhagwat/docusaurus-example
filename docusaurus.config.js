@@ -3,7 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const projectName = 'docusarus-example';
+const projectName = 'docusaurus-example';
 const userName = 'MrunmayeeBhagwat';
 
 /** @type {import('@docusaurus/types').Config} */

@@ -8,9 +8,6 @@ import HomepageFeatures from '../components/HomepageFeatures';
 import GitHubButton from 'react-github-btn';
 import BackToTopButton from '@theme/BackToTopButton';
 
-
-
-
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
