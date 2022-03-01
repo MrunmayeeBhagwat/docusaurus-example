@@ -1,0 +1,89 @@
+
+.ProjectsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-between;
+  margin: 30px;
+}
+
+.ProjectsTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.Project {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 0.5fr;
+  gap: 10px 10px;
+  grid-template-areas:
+    'ProjectImage'
+    'ProjectInfo';
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.Project:hover {
+  box-shadow: 0px 0px 15px #ccc;
+}
+
+.ProjectImage {
+  grid-area: ProjectImage;
+  width: 100%;
+  object-fit: cover;
+}
+
+.ProjectInfo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 0.5fr;
+  gap: 10px 0px;
+  grid-template-areas:
+    'ProjectTitle'
+    'ProjectDescription';
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-area: ProjectInfo;
+}
+
+.ProjectTitle {
+  grid-area: ProjectTitle;
+  text-transform: uppercase;
+  text-decoration:underline;
+}
+
+.ProjectDuration {
+  text-transform: uppercase;
+  text-decoration:underline;
+  text-decoration:color;
+  text-decoration-style:solid
+}
+
+.ProjectDescription {
+  grid-area: ProjectDescription;
+}
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:blue
+}
