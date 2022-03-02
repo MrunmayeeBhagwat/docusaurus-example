@@ -6,7 +6,7 @@ import styles from '../../components/Project.module.css';
 import React from 'react';
 import HomepageHeader from '../../pages';
 import ProjectList from '../../components/Project';
-import Data from '/Users/mrunmayee.bhagwat/Documents/docusaurus-example/src/components/ProjectData.json';
+import Data from '../../components/ProjectData.json';
 
 function Projects() {
   return (
