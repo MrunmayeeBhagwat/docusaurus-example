@@ -10,12 +10,13 @@ const userName = 'MrunmayeeBhagwat';
 module.exports = {
   title: 'Mrunmayee Bhagwat',
   tagline: 'QA Consultant at Thoughtworks | Aspiring Developer | Philomath ',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://MrunmayeeBhagwat.github.io',
+  baseUrl: '/docusaurus-example/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
   favicon: 'img/favicon.ico',
+  organizationName:'MrunmayeeBhagwat',
   projectName: projectName, // Usually your repo name.
   themes: ['@docusaurus/theme-live-codeblock'],
   plugins: ['@docusaurus/plugin-ideal-image'],
