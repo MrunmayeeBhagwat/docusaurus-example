@@ -2,24 +2,17 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import BackToTopButton from '@theme/BackToTopButton';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
-import styles from '../../components/Project.module.css';
 import React from 'react';
 import HomepageHeader from '../../pages';
 import ProjectList from '../../components/Project';
-import Data from '../../components/ProjectData.json';
+import PageHero from '../../components/PageHero/PageHero';
+
 
 function Projects() {
   return (
     <Layout>
-      <section className={clsx('hero hero--primary', styles.heroBanner)}>
-           <div className="container">
-             <h1 className="hero__title">{Data.title}</h1>
-             <p className="hero__subtitle">{Data.description}</p>
-             <div className={styles.buttons}>
-             </div>
-           </div>
-         </section>
-      <ProjectList projects={Data.projects} />
+     <PageHero title={"My Academic Projects"} subtitle={"Checkout my academic projects listed below"} />
+      <ProjectList />
       <BackToTopButton />
     </Layout>
   );

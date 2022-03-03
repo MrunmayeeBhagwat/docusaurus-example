@@ -1,7 +1,8 @@
 import React from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import clsx from 'clsx';
-import styles from '/src/components/Project.module.css';
+import styles from './Project.module.css';
+import Data from './ProjectData.json';
 
 
 function Project({title,
@@ -24,14 +25,14 @@ duration}) {
   );
 
 };
-export default function ProjectList({ projects }) {
+export default function ProjectList() {
+const {projects}=Data
   return (
     <section className={styles.ProjectsContainer}>
       <div className='container'>
         <div className='row'>
           {projects.map((project, idx) => (
             <Project key={idx}  {...project}/>
-
           ))}
         </div>
       </div>

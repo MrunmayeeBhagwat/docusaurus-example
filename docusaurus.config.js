@@ -9,7 +9,7 @@ const userName = 'MrunmayeeBhagwat';
 /** @type {import('@docusaurus/types').Config} */
 module.exports = {
   title: 'Mrunmayee Bhagwat',
-  tagline: 'QA Consultant at Thoughtworks | Aspiring Developer | Philomath ',
+  tagline: 'QA Consultant at Thoughtworks | Aspiring Developer | Philomath | Melophile ',
   url: 'https://MrunmayeeBhagwat.github.io',
   baseUrl: '/docusaurus-example/',
   onBrokenLinks: 'throw',
@@ -181,7 +181,7 @@ module.exports = {
         announcementBar: {
             id: 'support_us',
             content:
-              'If you like my website , give it a star on <a href="https://github.com/MrunmayeeBhagwat/docusaurus-example"> Github</a>',
+              '⭐️ If you like my website , give it a star on <a href="https://github.com/MrunmayeeBhagwat/docusaurus-example"> Github</a> ⭐️',
             backgroundColor: '#D6DBDF',
             textColor: '#091E42',
             isCloseable: false,
@@ -217,6 +217,12 @@ module.exports = {
                 },
               ],
               copyright: `Copyright © ${new Date().getFullYear()} Mrunmayee Bhagwat`,
+              logo: {
+                  alt: 'Some logo',
+                  src: '/img/creative-luxury-letter-m-logo-design-inspiration-.jpeg',
+                  width: 100,
+                  height: 120,// with respect to static dir
+                },
             },
             prism: {
               theme: lightCodeTheme,

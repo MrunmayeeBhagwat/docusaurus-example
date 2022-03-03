@@ -6,7 +6,7 @@ import Link from '@docusaurus/Link';
 const FeatureList = [
   {
     title: 'Creativity',
-    Svg: require('../../static/img/undraw_creativity_re_8grt.svg').default,
+    Svg: require('../../../static/img/undraw_creativity.svg').default,
     description: (
       <>
         Creativity skills help me in being effective at workplace.
@@ -17,7 +17,7 @@ const FeatureList = [
   },
   {
     title: 'Problem Solving Ability',
-    Svg: require('../../static/img/problem_solving.svg').default,
+    Svg: require('../../../static/img/undraw_problem_solving.svg').default,
     description: (
       <>
         Unlike conceptual skills, which are about abstract thinking and ideation, problem-solving skills are to be a big part connected to being proactive when it comes to the implementation of my ideas.
@@ -26,7 +26,7 @@ const FeatureList = [
   },
   {
     title: 'Team Player',
-    Svg: require('../../static/img/teamplayer.svg').default,
+    Svg: require('../../../static/img/undraw_team_player.svg').default,
     description: (
       <>
        I possess the following good qualities of a team teamplayer
@@ -59,7 +59,7 @@ export default function HomepageFeatures() {
                 <Link
                   className="button button--secondary button--lg"
                   to="#">
-                  My Personal Skills
+                  Personal Skills
                 </Link>
               </div>
         <div className="row">

@@ -1,6 +1,5 @@
 {
-  "title": "My Projects",
-  "description": "Checkout my academic projects listed below",
+
   "projects": [
     {
       "title": "Melanoma Prediction using Machine learning  ",
@@ -12,7 +11,7 @@
     {
       "title": "Railway Reservation System",
       "description": "\nDeveloped a web based application which allowed users to search, reserve seats in train.  Users were also given a list of trains with optimized routes and cost for their search. The online railway ticket reservation system is developed using Frontend: HTML, CSS, Bootstrap ,  Backend: PHP and MongoDB.\u2028Objectives:\n1. To create a database of the trains\u20282. To search the trains it’s arrival and departure time,distance between source and destination.\u20283. To check the availability of the ticket.\u20284. To calculate fare.\u20285. To book the ticket.\u20286. To cancel the ticket if necessary. \n",
-      "image": "/img/projects.png",
+      "image": "/img/undraw_organizing_projects.svg",
       "link": "#",
       "duration": "Jun 2016 - Dec 2016"
     }
