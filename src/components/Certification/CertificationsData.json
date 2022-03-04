@@ -1,0 +1,38 @@
+{
+
+  "certifications": [
+    {
+      "name": "Responsive Web Design",
+      "image": "/img/freeCodeCamp.jpeg",
+      "organisation": "Issued By: freeCodeCamp",
+      "date": "February 26, 2022"
+    },
+
+    {
+      "name": "Certified Professional - Selenium Automation Testing",
+      "image": "/img/CP-SAt.jpeg",
+      "organisation": "Issued By: Agile Testing Alliance",
+      "date": "August 14, 2018"
+    },
+    {
+      "name": "Scrum Foundation Professional Certificate",
+      "image": "/img/scrumFoundation.png",
+      "organisation": "Issued By: CertiProf",
+      "date": "August 30, 2020"
+    }
+    ,
+    {
+      "name": "ISTQB Certified Tester Foundation Level",
+      "image": "/img/istqb.png",
+      "organisation": "Issued By: International Software Testing Qualifications Board",
+      "date": "September 19, 2018"
+    },
+    {
+      "name": "Remote Work and Virtual Collaboration",
+      "image": "/img/remoteWork.jpeg",
+      "organisation": "Issued By: CertiProf",
+      "date": "April 16, 2021"
+    }
+
+  ]
+}

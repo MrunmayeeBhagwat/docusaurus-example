@@ -1,0 +1,87 @@
+
+.CertificationsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-between;
+  margin: 30px;
+}
+
+.CertificationsTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.Certification {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 0.2fr;
+  gap: 5px 5px;
+  grid-template-areas:
+    'ProjectImage'
+    'ProjectInfo';
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.Certification:hover {
+  box-shadow: 0px 0px 15px #ccc;
+}
+
+.CertificationImage {
+  grid-area: ProjectImage;
+  width: 100%;
+  object-fit: cover;
+}
+
+.CertificationInfo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 0.2fr;
+  gap: 5px 0px;
+  grid-template-areas:
+    'ProjectTitle'
+    'ProjectDescription';
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-area: ProjectInfo;
+}
+
+.CertificationTitle {
+  grid-area: ProjectTitle;
+  text-transform: uppercase;
+  text-decoration:underline;
+}
+
+.CertificationDuration {
+
+  text-decoration:underline;
+  text-decoration:color;
+  text-decoration-style:solid
+}
+
+
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:blue
+}

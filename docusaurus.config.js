@@ -9,7 +9,7 @@ const userName = 'MrunmayeeBhagwat';
 /** @type {import('@docusaurus/types').Config} */
 module.exports = {
   title: 'Mrunmayee Bhagwat',
-  tagline: 'QA Consultant at Thoughtworks | Aspiring Developer | Philomath | Melophile ',
+  tagline: 'QA Consultant at Thoughtworks | Aspiring Developer | Philomath ',
   url: 'https://MrunmayeeBhagwat.github.io',
   baseUrl: '/docusaurus-example/',
   onBrokenLinks: 'throw',
@@ -56,110 +56,14 @@ module.exports = {
                 height: 32,
               },
         items: [
-          {
-            position: 'right',
-            to: '#',
-            type:'dropdown',
-            label: 'Technical Skills',
-            items: [
-                         {
 
-                            label: 'C',
-                            to: '#'
-                         },
-                         {
-
-                            label: 'C++',
-                             to: '#'
-                         },
-                            {
-
-                            label: 'Ruby(Basics)',
-                            to: '#'
-                         },
-                         {
-
-                            label: 'Java',
-                            to: '#'
-                         },
-                         {
-
-                            label: 'JavaScript',
-                            to: '#',
-                         },
-                         {
-
-                            label: 'Selenium-Webdriver',
-                            to: '#',
-                         },
-                          {
-
-                            label: 'Appium',
-                            to: '#',
-                          },
-                          {
-
-                            label: 'HTML',
-                            to: '#',
-                         },
-                         {
-
-                            label: 'CSS',
-                            to: '#',
-                                                  },
-                         {
-
-                            label: 'MySQL',
-                            to: '#',
-                         },
-                         {
-
-                            label: 'Cucumber',
-                            to: '#',
-                        }
+           {
+                                position: 'right',
+                                to: '/Certifications',
+                                label: 'Certifications'
+                              },
 
 
-                         ]
-
-
-          },
-          {
-                      position: 'right',
-                      to: '#',
-                      type:'dropdown',
-                      label: 'Certifications',
-                      items: [
-                                   {
-
-                                      label: 'Responsive Web Design',
-                                      to: '#'
-                                   },
-                                   {
-
-                                      label: 'Certified Professional-Selenium Automation Testing',
-                                      to: '#'
-                                                                      },
-                                   {
-
-                                      label: 'ISTQB',
-                                      to: '#',
-                                   },
-                                   {
-
-                                      label: 'Scrum Foundation Professional Certification',
-                                      to: '#',
-                                   },
-                                    {
-
-                                      label: 'Remote Work and Virtual Collaboration',
-                                      to: '#',
-                                    },
-
-
-                                   ]
-
-
-                    },
           {to: '/AcademicProjects', label: 'Academic Projects', position: 'right'},
 //          {
 //                      position: 'right',
@@ -219,7 +123,7 @@ module.exports = {
               copyright: `Copyright © ${new Date().getFullYear()} Mrunmayee Bhagwat`,
               logo: {
                   alt: 'Some logo',
-                  src: '/img/creative-luxury-letter-m-logo-design-inspiration-.jpeg',
+                  src: '/img/black-background-and-white-letter-m-grunge-vector-27974010.jpeg',
                   width: 100,
                   height: 120,// with respect to static dir
                 },
