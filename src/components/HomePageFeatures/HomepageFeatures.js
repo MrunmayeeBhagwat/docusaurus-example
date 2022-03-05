@@ -29,7 +29,7 @@ const FeatureList = [
     Svg: require('../../../static/img/undraw_team_player.svg').default,
     description: (
       <>
-       I possess the following good qualities of a team teamplayer :-
+       I possess the following good qualities of a team player :-
        <br/><strong> 1)Commitment to ensuring the team succeeds with all tasks, duties and projects.
        <br/> 2)Willingness to help a team member in need.</strong>
       </>

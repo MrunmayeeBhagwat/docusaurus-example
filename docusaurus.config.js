@@ -82,6 +82,12 @@ module.exports = {
           },
         ],
       },
+      colorMode:
+      {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
         announcementBar: {
             id: 'support_us',
             content:
