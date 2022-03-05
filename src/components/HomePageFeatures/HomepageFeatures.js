@@ -10,8 +10,8 @@ const FeatureList = [
     description: (
       <>
         Creativity skills help me in being effective at workplace.
-        Some of the creativity skills I possess include:<code> Making connections,
-        Asking questions, Making observations, Networking, Experimenting</code>
+        Some of the creativity skills I possess include:- <br/> <strong>Making connections,
+        Asking questions, Making observations, Networking, Experimenting</strong>
       </>
     ),
   },
@@ -29,9 +29,9 @@ const FeatureList = [
     Svg: require('../../../static/img/undraw_team_player.svg').default,
     description: (
       <>
-       I possess the following good qualities of a team teamplayer
-       <code> 1)Commitment to ensuring the team succeeds with all tasks, duties and projects. </code>
-       <code> 2)Willingness to help a team member in need. </code>
+       I possess the following good qualities of a team teamplayer :-
+       <br/><strong> 1)Commitment to ensuring the team succeeds with all tasks, duties and projects.
+       <br/> 2)Willingness to help a team member in need.</strong>
       </>
     ),
   },
