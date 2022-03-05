@@ -9,8 +9,8 @@ export default function PageHero({title, subtitle, children}) {
 
          <section className={clsx('hero hero--primary', styles.heroBanner)}>
               <div className="container">
-                <h1 className="hero__title">{title}</h1>
-                <p className="hero__subtitle">{subtitle}</p>
+                <h1 className={styles.hero__title}>{title}</h1>
+                <p className={styles.hero__subtitle}>{subtitle}</p>
                 {children}
               </div>
          </section>
