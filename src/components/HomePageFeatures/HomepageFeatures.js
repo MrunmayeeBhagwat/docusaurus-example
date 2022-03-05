@@ -9,9 +9,9 @@ const FeatureList = [
     Svg: require('../../../static/img/undraw_creativity.svg').default,
     description: (
       <>
-        Creativity skills help me in being effective at workplace.
-        Some of the creativity skills I possess include:- <br/> <strong>Making connections,
-        Asking questions, Making observations, Networking, Experimenting</strong>
+        Creativity skills help me think out of the box and present unique solutions for challenges faced at workplace.
+        Some of the creativity skills I possess include making connections,
+        asking questions, making observations, networking, experimenting.
       </>
     ),
   },
@@ -20,7 +20,7 @@ const FeatureList = [
     Svg: require('../../../static/img/undraw_problem_solving.svg').default,
     description: (
       <>
-        Unlike conceptual skills, which are about abstract thinking and ideation, problem-solving skills are to be a big part connected to being proactive when it comes to the implementation of my ideas.
+      My 'never say no' attitude and tenacious determination ensures that I don't give up easily until and unless I solve any given problem.
       </>
     ),
   },
@@ -29,9 +29,7 @@ const FeatureList = [
     Svg: require('../../../static/img/undraw_team_player.svg').default,
     description: (
       <>
-       I possess the following good qualities of a team player :-
-       <br/><strong> 1)Commitment to ensuring the team succeeds with all tasks, duties and projects.
-       <br/> 2)Willingness to help a team member in need.</strong>
+      Along with being an individual contributor , I am also adept at collaboration and my strong interpersonal communication helps me be an excellent team player.
       </>
     ),
   },
