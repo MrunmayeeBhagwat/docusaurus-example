@@ -56,7 +56,11 @@ module.exports = {
                 height: 32,
               },
         items: [
-
+{
+                                position: 'right',
+                                to: '/blog',
+                                label: 'Blogs'
+                              },
            {
                                 position: 'right',
                                 to: '/Certifications',
@@ -64,7 +68,7 @@ module.exports = {
                               },
 
 
-          {to: '/AcademicProjects', label: 'Academic Projects', position: 'right'},
+          {to: '/AcademicProjects', label: 'Academic & Personal Projects', position: 'right'},
 //          {
 //                      position: 'right',
 //                      to: '/PapersPresented',
@@ -117,7 +121,7 @@ module.exports = {
                   items: [
                     {
                       label: 'Blogs',
-                      to: '/blog',
+                      to: 'https://medium.com/@mrunmayeebhagwat3/testing-api-the-basics-1e233a47f47d',
                     },
                     {
                       label: 'GitHub',
@@ -129,9 +133,9 @@ module.exports = {
               copyright: `Copyright © ${new Date().getFullYear()} Mrunmayee Bhagwat`,
               logo: {
                   alt: 'Some logo',
-                  src: '/img/black-background-and-white-letter-m-grunge-vector-27974010.jpeg',
-                  width: 100,
-                  height: 120,// with respect to static dir
+                  src: '/img/My project.png',
+                  width: 500,
+                  height: 600,// with respect to static dir
                 },
             },
             prism: {

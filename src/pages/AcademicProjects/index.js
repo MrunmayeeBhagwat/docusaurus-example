@@ -11,7 +11,7 @@ import PageHero from '../../components/PageHero/PageHero';
 function Projects() {
   return (
     <Layout>
-     <PageHero title={"My Academic Projects"} subtitle={"Checkout my academic projects listed below"} />
+     <PageHero title={"My Academic & Personal Projects"} subtitle={"Checkout my academic and personal projects listed below"} />
       <ProjectList />
       <BackToTopButton />
     </Layout>
