@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_example=self.webpackChunkdocusaurus_example||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Testing API- The Basics","permalink":"/docusaurus-example/blog/2022/06/23/api-testing"}]}')}}]);
