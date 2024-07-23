@@ -9,7 +9,7 @@ const userName = 'MrunmayeeBhagwat';
 /** @type {import('@docusaurus/types').Config} */
 module.exports = {
   title: 'Mrunmayee Bhagwat',
-  tagline: 'QA Consultant at Thoughtworks | Aspiring Developer | Philomath | Ergophile',
+  tagline: 'MS CS | Software Engineer | Philomath | Ergophile',
   url: 'https://MrunmayeeBhagwat.github.io',
   baseUrl: '/docusaurus-example/',
   onBrokenLinks: 'throw',
